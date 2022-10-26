@@ -1,0 +1,368 @@
+body{
+    margin: 10px;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'poppins',sans-serif;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 1440px;
+    height: 831px;
+    overflow: hidden;
+    position: relative;
+}
+.container{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.header-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;;
+}
+.header-img .image{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    padding: 10px;
+    gap: 0.5rem;
+    
+}
+.saloon{
+    position:relative ;
+    top: 9px;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.booking{
+    width: 100px;
+    height: 30px;
+    background: rgba(251, 176, 52, 1);
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 400;
+    margin: 0,auto;
+}
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content1{
+position: absolute;
+width: 155px;
+height: 17px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 106.5%;
+top: 342px;
+left: 115px;
+bottom: 472px;
+right: 1170px;
+color: #FBB034;
+}
+.content2{
+position: absolute;
+width: 513px;
+height: 90px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 94.5%;
+color: #FFFFFF;
+top: 350px;
+bottom: 360px;
+left: 115px;
+right: 812px;
+}
+.content3{
+position: absolute;
+width: 389px;
+height: 66px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 106.5%;
+color: #9A9A9A;
+top: 493px;
+bottom: 272px;
+left: 115px;
+right: 936px;
+}
+.image1{
+position: absolute;
+width: 720px;
+height: 625px;
+bottom: 0;
+right: 0;
+}
+.logo{
+position: absolute;
+width: 47px;
+height: 42px;
+bottom: 60px;
+top: 523px;
+left:150px;
+background: linear-gradient(0deg, rgba(76, 79, 91, 0.1), rgba(76, 79, 91, 0.1)), linear-gradient(0deg, rgba(70, 73, 85, 0.4), rgba(70, 73, 85, 0.4)), url(Choppers Logo White png (1).png);
+}
+.bg-img{
+position: absolute;
+width: 1440px;
+height: 676px;
+left: 0px;
+top: 831px;
+}
+.images-1{
+    position: absolute;
+    width: 188px;
+    height: 282px;
+    left: 223px;
+    top: 931px;
+    z-index: -1;
+    
+}
+.images-2{
+position: absolute;
+width: 245px;
+height: 320px;
+left: 380px;
+top: 1100px;
+z-index: 2;
+}
+.images-3{
+    position: absolute;
+    width: 161px;
+    height: 118px;
+    left: 437px;
+    top: 931px;
+}
+.images-4{
+position: absolute;
+width: 245px;
+height: 320px;
+left: 369px;
+top: 1087px;
+background: #FFFFFF;
+z-index: 1;
+}
+.about-us{
+    display: flex;
+}
+.about-1{
+    position: absolute;
+    width: 70px;
+    height: 19px;
+    left: 767px;
+    top: 986px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106.5%;
+    color: #FBB034; 
+}
+.about-2{
+    position: absolute;
+    width: 451px;
+    height: 90px;
+    left: 767px;
+    top: 1029px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 94.5%;
+    color: #000000;
+    
+    
+}
+.about-3{
+    position: absolute;
+    width: 401px;
+    height: 57px;
+    left: 767px;
+    top: 1180px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 106.5%;
+    color: #565656; 
+}
+.read{
+position: absolute;
+padding: 17.5px;
+width: 90px;
+height: 30px;
+left: 767px;
+top: 1300px;
+color: #000000;
+background-color: #FBB034;
+font-size: large;
+}
+.booknow{
+position: absolute;
+width: 79px;
+height: 19px;
+left: 118px;
+top: 1637px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+color: #FBB034;
+}
+.img-appointment{
+position: absolute;
+width: 1440px;
+height: 510px;
+left: 0px;
+top: 1507px;
+}
+.online{
+    position: absolute;
+    width: 586px;
+    height: 90px;
+    left: 115px;
+    top: 1668px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 94.5%;
+    color: #FFFFFF;
+     
+}
+.discount{
+ position: absolute;
+width: 339px;
+height: 38px;
+left: 118px;
+top: 1786px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 94.5%;
+color: #B8B8B8;
+
+}
+
+.contact{
+position: absolute;
+width: 320px;
+height: 283px;
+left: 929px;
+top: 1621px;
+background: #FFFFFF;
+}
+.circle{
+position: absolute;
+width: 100px;
+height: 100px;
+left: 100px;
+top:80px;
+background: white;
+}
+.pic{
+position: absolute;
+left: 43%;
+right: 50.19%;
+top: 36.5%;
+bottom: 65.67%;
+background: url(./Vector (2).png);
+}
+.call{
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    left: 110px;
+    top: 190px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 94.5%;
+    color: #a8a2a2;
+}
+    
+.number{
+position: absolute;
+width: 161px;
+height: 23px;
+left: 1009px;
+top: 1840px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 94.5%;
+color: #000000;  
+}
+.background{
+position: absolute;
+width: 1440px;
+height: 493px;
+left: 0px;
+top: 2023px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(.jpg);
+}
+.partner{
+    position: absolute;
+    left: 436px;
+    right: 13.46%;
+    top: 200px;
+    bottom: 27.45%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 106.5%;
+    color: #FBB034;
+}
+.join{
+    position: absolute;
+    width: 566px;
+    height: 68px;
+    left: 436px;
+    top: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 94.5%;
+    text-align: center;
+    text-transform: capitalize;
+    color:white;
+    
+}
+.affiliate{
+    position: absolute;
+width: 58px;
+height: 19px;
+left: 690px;
+top: 100px;
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 106.5%;
+color: #FBB034;
+
+
+}
